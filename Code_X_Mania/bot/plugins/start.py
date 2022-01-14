@@ -28,19 +28,25 @@ buttonz=ReplyKeyboardMarkup(
             
             
             
-@StreamBot.on_message(filters.regex("maintainers😎"))
+@StreamBot.on_message(filters.regex("DMCA ‼"))
 async def follow_user(b,m):
     try:
        await b.send_message(chat_id=m.chat.id,text="HELLO",quote=True)
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Coded By [CyberStain](https://t.me/cyberstainbot)",
+                    text="How To Report Any Copyright File ?
+                    1. Write an email and specify the Link on DirectLinkGenerator where you believe copyrighted material has been infringed upon.
+
+                    2. Provide us sufficient contact information so that we may contact you (name and email address are required).
+
+                    3. Provide us with evidence that you own the copyright to said.
+                     [Contact Us](nexhacker@my.com)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Developer💻", url=f"https://t.me/cyberstainbot")
+                                InlineKeyboardButton("Email", url=f"nexhacker@my.com")
                             ]
                         ]
                     ),
