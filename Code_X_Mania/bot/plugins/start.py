@@ -41,12 +41,12 @@ async def follow_user(b,m):
                     2. Provide us sufficient contact information so that we may contact you (name and email address are required).
 
                     3. Provide us with evidence that you own the copyright to said.
-                     [Contact Us](nexhacker@my.com)""",
+                     [Contact Us](mailto: nexhacker@my.com)""",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Email", url=f"nexhacker@my.com")
+                                InlineKeyboardButton("Email", url=f"mailto: nexhacker@my.com")
                             ]
                         ]
                     ),
