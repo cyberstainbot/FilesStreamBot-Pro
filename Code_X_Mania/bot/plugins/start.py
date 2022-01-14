@@ -35,13 +35,13 @@ async def follow_user(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="How To Report Any Copyright File ❓
+                    text="""How To Report Any Copyright File ❓
                     1. Write an email and specify the Link on DirectLinkGenerator where you believe copyrighted material has been infringed upon.
 
                     2. Provide us sufficient contact information so that we may contact you (name and email address are required).
 
                     3. Provide us with evidence that you own the copyright to said.
-                     [Contact Us](nexhacker@my.com)",
+                     [Contact Us](nexhacker@my.com)""",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
